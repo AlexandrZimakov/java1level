@@ -30,7 +30,7 @@ public class HomeWorkApp {
         value = 20;
         if (value <= 0) {
             System.out.println("Красный");
-        } else if (value >= 1 && value <=100) {
+        } else if (value >= 1 && value <= 100) {
             System.out.println("Желтый");
         } else {
             System.out.println("Зеленый");
@@ -40,9 +40,9 @@ public class HomeWorkApp {
         int a = 14;
         int b = 23;
         if (a >= b) {
-            System.out.println("a>=b");
+            System.out.println("a >= b");
         } else {
-            System.out.println("a<b");
+            System.out.println("a < b");
         }
     }
 }
