@@ -1,49 +1,35 @@
 package ru.gb.zimakov;
 
 public class HomeWorkApp {
-    public static void main(String[] args) {
-        printThreeWords();
-        checkSumSign();
-        printColor();
-        compareNumbers();
+    public static void main (String[] args) {
+        System.out.println(check(6,7));
+        number(0);
+        System.out.println(examination(8));
+        print("Home", 3);
     }
-
-    public static void printThreeWords() {
-        System.out.println("Orange");
-        System.out.println("Banana");
-        System.out.println("Apple");
+    public static boolean check ( int a, int b) {
+        int sum = a + b;
+        if (sum >= 10 && sum <= 20) {
+            return true;
+        }
+        return false;
     }
-
-    public static void checkSumSign() {
-        int a = 3;
-        int b = 5;
-        int c = a + b;
-        if (c >= 0) {
-            System.out.println("Сумма положительная");
+    public static void number (int c)  {
+        if(c <= -1){
+            System.out.println("Отрацательное число");
         } else {
-            System.out.println("Сумма отрицательная");
+            System.out.println("Положительное число");
         }
     }
-
-    public static void printColor() {
-        int value = 20;
-        if (value <= 0) {
-            System.out.println("Красный");
-        } else if (value <= 100) {
-            System.out.println("Желтый");
-        } else {
-            System.out.println("Зеленый");
+    public static boolean examination (int d) {
+        if (d <= -1) {
+            return true;
         }
+        return false;
     }
-
-    public static void compareNumbers(){
-        int a = 14;
-        int b = 23;
-        if (a >= b) {
-            System.out.println("a>=b");
-        } else {
-            System.out.println("a<b");
+    public static void print (String word, int times) {
+        for(int i = 1; i <= times; i++ ) {
+            System.out.println("" + word);
         }
     }
 }
-
