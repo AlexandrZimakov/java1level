@@ -17,8 +17,9 @@ public class HomeWork3 {
             } else {
                 arr [i] = 1;
             }
-            System.out.println(arr [i]);
+            System.out.print(arr [i]);
         }
+        System.out.println();
     }
     public static void empty(){
         int[] arr = new int[100];
@@ -53,6 +54,7 @@ public class HomeWork3 {
             arr [i] = initialValue;
             System.out.print("[" + i + "]" + arr[i] + " ");
         }
+        System.out.println();
     }
 
     public static void minMax() {
