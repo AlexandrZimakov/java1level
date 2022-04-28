@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class HomeWork4 {
     public static int SIZE = 5;
-    private final static int DOTS_COUNT_TO_WIN = 4;
+    public static final int DOTS_COUNT_TO_WIN = 4;
     public static final char DOT_EMPTY = '•';
     public static final char DOT_X = 'X';
     public static final char DOT_O = 'O';
