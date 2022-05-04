@@ -2,12 +2,12 @@ package ru.gb.zimakov;
 
 
 public class Employee {
-    private final String fio;
-    private final String position;
-    private final String email;
-    private final String telephone;
-    private final double salary;
-    private final int age;
+    private String fio;
+    private String position;
+    private String email;
+    private String telephone;
+    private double salary;
+    private int age;
 
     public Employee(String fio, String position, String email, String telephone, double salary, int age) {
         this.fio = fio;
